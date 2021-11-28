@@ -12,7 +12,7 @@ function Person({name = "John Doe", age = 21, hobbies = ["jogging"]}) {
             <p>Age: {age}</p>
             {voteText}
             <ul>
-                {hobbies.map((hobby, i) => <li key = {i}>hobby</li>)}
+                {hobbies.map((hobby, i) => <li key = {i}>{hobby}</li>)}
             </ul>
         </div>
     );
